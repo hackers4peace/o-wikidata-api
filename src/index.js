@@ -4,7 +4,7 @@ const BASE_URL = 'https://www.wikidata.org/w/api.php'
 
 class Client {
 
-  webSearchEntitis (searchTerm, options) {
+  webSearchEntities (searchTerm, options) {
     let defaults = {
       language: 'en',
       uselang: 'en',
