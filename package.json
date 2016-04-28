@@ -1,8 +1,17 @@
 {
   "name": "o-wikidata-api",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "lib/index.js",
+  "repository": {
+   "type": "git",
+   "url": "git+https://github.com/hackers4peace/o-wikidata-api.git"
+ },
+ "author": "",
+ "license": "Unlicense",
+ "bugs": {
+   "url": "https://github.com/hackers4peace/o-wikidata-api/issues"
+ },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "babel --presets es2015 -d lib/ src/",
